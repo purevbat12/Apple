@@ -1,251 +1,251 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-      *{
-        font-family:"Inter", serif;
+*{
+    font-family:"Inter", serif;
+}
+header{
+    display:flex;
+    align-items:center;
+    gap:24px;
+    padding-block:12.5px;
+    justify-content:center;
+}
+.apple{
+    width:12.97px;
+    height:15.94px;
+}
+.search{
+    width:14.08px;
+    height:14.08px;
+    margin-left:0px;
+}
+.store{
+    width:12.94px;
+    height:14.92;
+}
+.menu{
+    width:18px;
+    height:18px;
+    display:none;
+}
+nav{
+    display:flex;
+    gap:24px;
+}
+nav a{
+    font-size:12px;
+    font-weight:400;
+    font-family:"Inter", serif;
+    text-decoration:none;
+    color:black;
+}
+.random-text span{
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+}
+.random-text{
+    display:flex;
+    padding-block:16px;
+    justify-content:center;
+}
+.hero{
+    background-image:url("img/Background.png");
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#ffffff;
+    padding:55px 0px 386px 0px;
+}
+.section-h1{
+    text-align:center;
+    margin-top:30px;
+    font-size:52px;
+    font-weight:600;
+}
+.section-p{
+    font-size:24px;
+    font-weight:400;
+}
+.btns{
+    justify-content:center;
+    display:flex;
+    gap:10px;
+}
+.learn{
+    background:#0071e3;
+    border-radius:9999px;
+    border:none;
+    padding:12px 20px 12px 20px;
+    font-size:16px;
+    font-weight:400;
+    color:#ffffff;
+}
+.buy{
+    color:#2997ff;
+    border-radius:9999px;
+    border:1px solid #2997ff;
+    padding:12px 20px 12px 20px;
+    background:none;
       }
-      header{
-        display:flex;
-        align-items:center;
-        gap:24px;
-        padding-block:12.5px;
-        justify-content:center;
-      }
-      .apple{
-        width:12.97px;
-        height:15.94px;
-      }
-      .search{
-        width:14.08px;
-        height:14.08px;
-        margin-left:0px;
-      }
-      .store{
-        width:12.94px;
-        height:14.92;
-      }
-      .menu{
+.second{
+    background-image:url("./img/Figure-second.png");
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px 0px 386px 0px;
+    color:#ffffff;
+    margin-top:6px;
+}
+.color{
+    color:#000;
+    background-color:#ffffff;
+}
+.color1{
+    color:#ffffff;
+    border:1px solid #ffffff;
+}
+.third{
+    position:relative;
+    background-image:url("./img/Figure-third.png");
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px 0px 386px 0px;
+    color:#ffffff;
+    margin-top:6px;
+}
+.section1{
+    transform:translate(0, 195%);
+    color:#000;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.section1-h1{
+    font-size:52px;
+    font-weight:600;
+    margin:0px;
+}
+.section1-p{
+    font-size:24px;
+    font-weight:400;
+}
+.boxes{
+    display:flex;
+    margin-top:6px;
+}
+.box1{
+    background-image:url("./img/box1.png");
+    background-position:center;
+    display:flex;
+    justify-content:center;
+}
+.heading-img{
+    width:430px;
+    height:33px;
+}
+.section2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.section2 p{
+    font-size:18px;
+    font-weight:400;
+}
+.box2{
+    background-image:url("./img/box2.png");
+    background-position:center;
+}
+@media (max-width: 790px) {
+    .hero{
+        background-image:url("img/Figure.png");
+        background-repeat:no-repeat;
+        padding:55px 0px 386px 0px;
+    }
+    nav{
+        display:none;
+    }
+    .apple{
+        width:16px;
+        height:19px;
+    }
+    .search{
+        width:16.05px;
+        height:16.03px;
+        margin-left:auto;
+    }
+    .store{
+        width:15.12px;
+        height:17.6px;
+    }
+    .menu{
         width:18px;
         height:18px;
+        display:block;
+    }
+    .second{
+        background-image:url("./img/Figure-second1.png");
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+    .third{
         display:none;
-      }
-      nav{
+    }
+}
+@media (max-width: 368px) {
+    .apple{
+        width:16px;
+        height:19px;
+    }
+    .search{
+        width:16.05px;
+        height:16.03px;
+        margin-left:auto;
+    }
+    .store{
+        width:15.12px;
+        height:17.6px;
+    }
+    .menu{
+        width:18px;
+        height:18px;
+        display:block;
+    }
+    nav{
+        display:none;
+    }
+    .hero{
         display:flex;
-        gap:24px;
-      }
-      nav a{
-        font-size:12px;
-        font-weight:400;
-        font-family:"Inter", serif;
-        text-decoration:none;
-        color:black;
-      }
-      .random-text span{
-        text-align:center;
-        font-size:14px;
-        font-weight:400;
-      }
-      .random-text{
-        display:flex;
-        padding-block:16px;
-        justify-content:center;
-      }
-      .hero{
-        background-image:url("img/Background.png");
+        flex-direction:column;
+        justify-content:flex-end;
+        background-image:url("img/Figure1.png");
         background-position:center;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        color:#ffffff;
-        padding:55px 0px 386px 0px;
-      }
-      .section-h1{
-        text-align:center;
-        margin-top:30px;
-        font-size:52px;
-        font-weight:600;
-      }
-      .section-p{
-        font-size:24px;
-        font-weight:400;
-      }
-      .btns{
-        justify-content:center;
-        display:flex;
-        gap:10px;
-      }
-      .learn{
-        background:#0071e3;
-        border-radius:9999px;
-        border:none;
-        padding:12px 20px 12px 20px;
-        font-size:16px;
-        font-weight:400;
-        color:#ffffff;
-      }
-      .buy{
-        color:#2997ff;
-        border-radius:9999px;
-        border:1px solid #2997ff;
-        padding:12px 20px 12px 20px;
-        background:none;
-      }
-      .second{
-        background-image:url("./img/Figure-second.png");
+        background-repeat:no-repeat;
+        padding:205px 0px 40px 0px;
+    }
+    .second{
+        background-image:url("./img/Figure-second2.png");
         background-position:center;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        padding:20px 0px 386px 0px;
-        color:#ffffff;
-        margin-top:6px;
-      }
-      .color{
-        color:#000;
-        background-color:#ffffff;
-      }
-      .color1{
-        color:#ffffff;
-        border:1px solid #ffffff;
-      }
-      .third{
-        position:relative;
-        background-image:url("./img/Figure-third.png");
-        background-position:center;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        justify-content:center;
-        padding:20px 0px 386px 0px;
-        color:#ffffff;
-        margin-top:6px;
-      }
-      .section1{
-        transform:translate(0, 195%);
-        color:#000;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-      }
-      .section1-h1{
-        font-size:52px;
-        font-weight:600;
-        margin:0px;
-      }
-      .section1-p{
-        font-size:24px;
-        font-weight:400;
-      }
-      .boxes{
-        display:flex;
-        margin-top:6px;
-      }
-      .box1{
-        background-image:url("./img/box1.png");
-        background-position:center;
-        display:flex;
-        justify-content:center;
-      }
-      .heading-img{
-        width:430px;
-        height:33px;
-      }
-      .section2{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-      }
-      .section2 p{
+        background-repeat:no-repeat;
+    }
+    .section{
+        margin-top:50px;
+    }
+    .section-h1{
+        font-size:30px;
+        font-weight:700;
+    }
+    .section-p{
         font-size:18px;
         font-weight:400;
-      }
-      .box2{
-        background-image:url("./img/box2.png");
-        background-position:center;
-      }
-      @media (max-width: 790px) {
-        .hero{
-          background-image:url("img/Figure.png");
-          background-repeat:no-repeat;
-          padding:55px 0px 386px 0px;
-        }
-        nav{
-          display:none;
-        }
-        .apple{
-          width:16px;
-          height:19px;
-        }
-        .search{
-          width:16.05px;
-          height:16.03px;
-          margin-left:auto;
-        }
-        .store{
-          width:15.12px;
-          height:17.6px;
-        }
-        .menu{
-          width:18px;
-          height:18px;
-          display:block;
-        }
-        .second{
-          background-image:url("./img/Figure-second1.png");
-          background-position:center;
-          background-repeat:no-repeat;
-          }
-        .third{
-          display:none;
-        }
-      }
-      @media (max-width: 368px) {
-        .apple{
-            width:16px;
-            height:19px;
-        }
-        .search{
-          width:16.05px;
-          height:16.03px;
-          margin-left:auto;
-        }
-        .store{
-          width:15.12px;
-          height:17.6px;
-        }
-        .menu{
-          width:18px;
-          height:18px;
-          display:block;
-        }
-        nav{
-          display:none;
-        }
-        .hero {
-          display:flex;
-          flex-direction:column;
-          justify-content:flex-end;
-          background-image:url("img/Figure1.png");
-          background-position:center;
-          background-repeat:no-repeat;
-          padding:205px 0px 40px 0px;
-          }
-        .second{
-          background-image:url("./img/Figure-second2.png");
-          background-position:center;
-          background-repeat:no-repeat;
-        }
-        .section{
-          margin-top:50px;
-        }
-        .section-h1{
-          font-size:30px;
-          font-weight:700;
-        }
-        .section-p{
-          font-size:18px;
-          font-weight:400;
-        }
-        .third{
-          display:none;
-        }
-      }
+    }
+    .third{
+        display:none;
+    }
+}
