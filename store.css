@@ -64,6 +64,7 @@ nav a{
       gap:60px;
       background-color:#F5F5F7;
       padding-bottom:100px;
+      margin-top:-5px;
 }
 .main-body > *{
       margin-left:140px;
@@ -396,8 +397,17 @@ nav a{
       top:31px;
 }
 .service > div{
+      overflow-x:scroll;
+      scroll-snap-type:x mandatory;
+      scrollbar-width:none;
       display:flex;
       gap:20px;
+}
+.service > div > .frames{
+      scroll-snap-align:start;
+      width:400px;
+      height:500px;
+      flex-shrink:0;
 }
 .service .h5{
       color:#000000;
@@ -421,9 +431,8 @@ nav a{
 .service > div > .frames:nth-child(5){
       background-image:url("./img/services5.png");
 }
-.big-frame ~ .frames{
-      width:400px;
-      height:500px;
+.service > div > .frames:nth-child(6){
+      background-image:url("./img/services6.png");
 }
 .service > div > .frames > div{
       left:30px;
